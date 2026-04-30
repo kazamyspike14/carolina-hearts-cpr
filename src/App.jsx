@@ -1,8 +1,12 @@
 import { useState, useMemo } from "react";
 
 const CLASSES_DATA = [
-  { id: 1, title: "CPR/AED & First Aid", type: "Blended Learning", date: "2025-05-15", time: "8:30 AM", location: "Soul Wellness, S. Main St., Mooresville NC", spots: 8, price: 85, certLength: 2 },
-  { id: 2, title: "CPR/AED & First Aid", type: "Blended Learning", date: "2025-06-07", time: "9:00 AM", location: "Soul Wellness, S. Main St., Mooresville NC", spots: 8, price: 85, certLength: 2 },
+  { id: 1, title: "CPR/AED & First Aid", type: "Blended Learning", date: "2026-05-15", time: "9:00-11:15 AM", location: "500 S Main St, Suite 113, Classroom 1, Mooresville NC 28115", spots: 12, price: 90, certLength: 2 },
+  { id: 2, title: "CPR/AED Only", type: "Blended Learning", date: "2026-05-15", time: "9:00-11:00 AM", location: "500 S Main St, Suite 113, Classroom 1, Mooresville NC 28115", spots: 12, price: 80, certLength: 2 },
+  { id: 3, title: "BLS", type: "Blended Learning", date: "2026-05-15", time: "11:30 AM-2:00 PM", location: "500 S Main St, Suite 113, Classroom 1, Mooresville NC 28115", spots: 9, price: 78, certLength: 2 },
+  { id: 4, title: "CPR/AED & First Aid", type: "Blended Learning", date: "2026-06-14", time: "9:00-11:15 AM", location: "500 S Main St, Suite 113, Classroom 1, Mooresville NC 28115", spots: 12, price: 90, certLength: 2 },
+  { id: 5, title: "CPR/AED Only", type: "Blended Learning", date: "2026-06-14", time: "9:00-11:00 AM", location: "500 S Main St, Suite 113, Classroom 1, Mooresville NC 28115", spots: 12, price: 80, certLength: 2 },
+  { id: 6, title: "BLS", type: "Blended Learning", date: "2026-06-14", time: "11:30 AM-2:00 PM", location: "500 S Main St, Suite 113, Classroom 1, Mooresville NC 28115", spots: 9, price: 78, certLength: 2 },
 ];
 
 const INITIAL_STUDENTS = [
